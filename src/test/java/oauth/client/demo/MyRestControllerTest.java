@@ -3,8 +3,6 @@ package oauth.client.demo;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
-import oauth.client.demo.config.OauthClientConfig;
-import oauth.client.demo.config.WebSecurityConfig;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -21,6 +19,11 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.web.context.WebApplicationContext;
+
+import com.sbf.paymentgateway.DemoApplication;
+import com.sbf.paymentgateway.MyRestController;
+import com.sbf.paymentgateway.client.config.OauthClientConfig;
+import com.sbf.paymentgateway.client.config.WebSecurityConfig;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration

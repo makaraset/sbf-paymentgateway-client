@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Implementation-Title: demo
+Implementation-Title: sbf-paymentgateway-client
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: marbro
-Implementation-Vendor-Id: org.test
-Build-Jdk: 1.8.0_25
+Built-By: makara.set
+Implementation-Vendor-Id: com.sbf.paymentgateway
+Build-Jdk: 1.8.0_144
 Created-By: Maven Integration for Eclipse
 Implementation-Vendor: Pivotal Software, Inc.
 Main-Class: oauth.client.demo.DemoApplication
